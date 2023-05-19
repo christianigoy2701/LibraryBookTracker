@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#75eb8d"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="70dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:text="Library"
+            android:layout_marginTop="50dp"
+            android:layout_marginStart="50dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="50dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:text="Book"
+            android:layout_marginStart="50dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="40dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:text="Tracker"
+            android:layout_marginStart="50dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:textSize="20dp"
+            android:id="@+id/titleBook"
+            android:textColor="@color/black"
+            android:hint="TITLE OF BOOK"
+            android:layout_marginStart="50dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textSize="20dp"
+            android:id="@+id/author"
+            android:textColor="@color/black"
+            android:hint="AUTHOR"
+            android:layout_marginStart="50dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textSize="20dp"
+            android:id="@+id/totalPrice"
+            android:textColor="@color/black"
+            android:hint="TOTAL PRICE"
+            android:layout_marginStart="50dp"/>
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/bookCode"
+            android:layout_marginTop="50dp"
+            android:layout_marginStart="50dp"
+            android:paddingStart="20dp"
+            android:inputType="number"
+            android:hint="Book Code"
+            android:textColorHint="@color/black"/>
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/daysBorrowed"
+            android:layout_marginStart="50dp"
+            android:inputType="date"
+            android:paddingStart="20dp"
+            android:hint="Number of Day's Borrowed"
+            android:textColorHint="@color/black"/>
+
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/borrowbtn"
+            android:textSize="25dp"
+            android:text="BORROW"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="50dp"/>
+
+    </LinearLayout>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
